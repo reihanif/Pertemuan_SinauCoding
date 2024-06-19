@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinau Coding HTML</title>
+</head>
+<body>
+    <table border="1" cellspacing="4" cellpadding="4" style="margin-left: auto; margin-right: auto;">
+        <thead>
+            <tr>
+                <th>
+                    Jenis
+                </th>
+                <th>
+                    Hasil
+                </th>
+                <th>
+                    Keterangan
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    Text
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Text:
+                        <input name="input-text" type="text" placeholder="input text">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah text
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Number
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Number:
+                        <input name="input-number" type="number" placeholder="input number">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah number/angka dan karakter yang diterima adalah angka
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Email
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Email:
+                        <input name="input-email" type="email" placeholder="input email">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah email dan mengandung validasi
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Password
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Password:
+                        <input name="input-password" type="password" placeholder="input password">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah text tetapi akan disembunyikan dalam bentuk bintang
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Radio
+                </th>
+                <td style="text-align: center;">
+                    Input Radio:
+                    <label>
+                        <input type="radio" name="input-radio">
+                        Radio 1
+                    </label>
+                    <label>
+                        <input type="radio" name="input-radio">
+                        Radio 2
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah berupa pilihan dan hanya bisa dipilih salah satu
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Checkbox
+                </th>
+                <td style="text-align: center;">
+                    Input Checkbox:
+                    <label>
+                        <input type="checkbox" name="input-checkbox">
+                        Checkbox 1
+                    </label>
+                    <label>
+                        <input type="checkbox" name="input-checkbox">
+                        Checkbox 2
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah checklist dan bisa dipilih beberapa
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Range
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Range:
+                        <input type="range" name="input-range">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah bar yang bisa digeser
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Time
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Time:
+                        <input type="time" name="input-time">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah format waktu
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Date
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Date:
+                        <input type="date" name="input-date">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah format waktu adalah satuan hari (hh), bulan (bb) dan tahun (tttt) 
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Week
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Week:
+                        <input type="week" name="input-week">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah format waktu adalah satuan hari bulan (bbbbbbbbb) dan tahun (tttt) 
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Color
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Color:
+                        <input type="color" name="input-color">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah berupa warna yang dihasilkan 
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    File
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input File:
+                        <input type="file" name="input-file">
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah dalam bentuk file
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Combo box
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Select:
+                        <select name="input-select">
+                            <option value="options 1">options 1</option>
+                            <option value="options 2">options 2</option>
+                            <option value="options 3">options 3</option>
+                        </select>
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah option yang bisa dipilih
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Textarea
+                </th>
+                <td style="text-align: center;">
+                    <label>
+                        Input Textarea:
+                        <br>
+                        <textarea name="input-textarea" cols="24" rows="4"></textarea>
+                    </label>
+                </td>
+                <td>
+                    tipe inputan yang diterima adalah text tetapi dalam karakter yang banyak
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Button
+                </th>
+                <td style="text-align: center;">
+                    <button type="button">Button</button>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </td>
+                <td>
+                    suatu tombol yang bisa melakukan action tertentu ketika diberi perintah
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Image
+                </th>
+                <td style="text-align: center;">
+                    <img src="./search-512.webp" width="30" height="30" alt="image">
+                </td>
+                <td>
+                    suatu tombol yang bisa melakukan action tertentu ketika diberi perintah
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
