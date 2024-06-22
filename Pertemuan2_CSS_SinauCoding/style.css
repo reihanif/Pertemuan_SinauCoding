@@ -1,8 +1,8 @@
 
 div {
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 280px;
+    background-repeat: repeat-y;
 }
 
 h1 {
