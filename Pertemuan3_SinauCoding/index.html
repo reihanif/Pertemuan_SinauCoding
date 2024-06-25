@@ -3,35 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pertemuan 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="left">
-        left
+        <div class="content">
+            <h1>Welcome to Twitter</h1>
+            <h2>Happening now, join twitter today</h2>
+            <img src="./img/illustrator.svg" alt="illustrator">
+        </div>
+        <p class="copyright">&copy; 2022 Twitter, Inc</p>
     </div>
     <div class="right">
-        <div>
-            <div class="top">
-                <img src="./img/logo.png" alt="Twitter Logo">
+        <div class="content">
+            <div class="header">
+                <img src="./img/logo-twitter.svg" alt="Twitter Logo">
                 <div class="cta">
                     Don't have an account?
-                    <a href="#" target="_self" rel="">Sign Up</a>
+                    <a class="sign-up" href="#" target="_blank" rel="noopener noreferrer">Sign Up</a>
                 </div>
             </div>
-        </div>
-        <div class="form">
-            <h1>Log in to Twitter</h1>
-            <p>Enter Twitter Account</p>
-            <input type="text" placeholder="Phone, email or username">
-            <input type="password" placeholder="Password">
-            <a href="#" target="_self" rel="">Forgot password?</a>
-            <button>Sign in</button>
-            <p>or</p>
-            <div class="social">
-                <button>Sign in with Google</button>
-                <button>Sign in with Apple</button>
-            </div>
+            <form action="#" method="post" class="form">
+                <h1>Log in to Twitter</h1>
+                <p class="form-title">Enter Twitter Account</p>
+                <input name="username" type="text" placeholder="Phone, email or username">
+                <input name="password" type="password" placeholder="Password">
+                <div class="forgot-password">
+                    <a href="#" target="_blank" rel="noopener noreferrer">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn-sign-in">Sign in</button>
+                <p class="sign-in-divider">or</p>
+                <div class="social">
+                    <button type="button" class="btn-google"><img src="./img/logo-google.svg" alt="Logo Google">Sign in with Google</button>
+                    <button type="button" class="btn-apple"><img src="./img/logo-apple.svg" alt="Logo Apple">Sign in with Apple</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
