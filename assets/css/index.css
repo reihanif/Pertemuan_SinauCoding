@@ -17,6 +17,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: white !important;
+}
+
 h1,
 h2,
 h3,
