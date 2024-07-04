@@ -1,0 +1,159 @@
+:root {
+  --primary-color-50: #f2f9fd;
+  --primary-color-100: #e3f1fb;
+  --primary-color-200: #c1e4f6;
+  --primary-color-300: #8aceef;
+  --primary-color-400: #4cb6e4;
+  --primary-color-500: #259dd2;
+  --primary-color-600: #1679ab;
+  --primary-color-700: #146590;
+  --primary-color-800: #145578;
+  --primary-color-900: #164764;
+  --primary-color-950: #0f2e42;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color-700);
+}
+
+h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h4 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h5 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h6 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--primary-color-600) !important;
+}
+
+section {
+  overflow: clip;
+}
+
+ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.btn-navbar {
+  font-size: 20px;
+  color: var(--primary-color-800);
+  border: 1px solid var(--primary-color-800);
+  border-radius: 100%;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-navbar:hover {
+  color: #fff;
+  background: var(--primary-color-800);
+  border: 1px solid var(--primary-color-800);
+}
+
+.nav-item .active {
+    color: var(--primary-color-800) !important;
+    font-weight: 600;
+    padding: 8px 0;
+    border-radius: 40px;
+}
+
+.nav-item .active i {
+    display: inline-block !important;
+}
+
+/* Hero Section */
+#hero:before {
+  content: "";
+  background-color: #ffffff;
+  opacity: 70%;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+#hero p span {
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--primary-color-500);
+}
+
+/* Experience Section */
+#experience {
+  background-color: var(--primary-color-50);
+}
+
+/* Skills Section */
+#skills p {
+  font-size: 20px;
+}
+
+/* Contact Section */
+#contact i {
+  font-size: 40px;
+  color: var(--primary-color-700);
+}
+
+/* Scroll Top Button */
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: -15px;
+  z-index: 99;
+  background-color: var(--primary-color-800);
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: var(--primary-color-50);
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background-color: var(--primary-color-800);
+  opacity: 80%;
+  color: var(--primary-color-50);
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
+}

@@ -1,0 +1,30 @@
+@import './base.css';
+
+#app {
+  display: flex;
+  height: 100dvh;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: small;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+}
