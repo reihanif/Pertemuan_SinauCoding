@@ -1,0 +1,27 @@
+@import './base.css';
+
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	font-weight: normal;
+}
+
+body {
+	display: flex;
+	place-items: center;
+}
+
+.btn {
+	all: unset;
+	color: var(--vt-c-text-dark-2);
+	padding: 4px 12px;
+	background-color: black;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: small;
+}
+
+.btn:hover {
+	background-color: var(--vt-c-black-soft);
+}
