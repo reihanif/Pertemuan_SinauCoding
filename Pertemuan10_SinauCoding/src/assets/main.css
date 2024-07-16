@@ -1,0 +1,70 @@
+@import './base.css';
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+main {
+  min-height: calc(100vh - 60px);
+  text-align: center;
+  padding: 60px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--vt-c-white-soft);
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+button {
+	all: unset;
+	color: var(--vt-c-text-dark-2);
+	padding: 4px 12px;
+	background-color: black;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: small;
+}
+
+button:hover {
+	background-color: var(--vt-c-black-soft);
+}
+
+.header {
+  margin: 24px 0;
+}
+.card {
+  border: 2px solid var(--color-border);
+  padding: 12px 24px;
+  width: 100%;
+  margin: 0.75rem auto 0 auto;
+  text-align: left;
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--vt-c-white-soft);
+  margin: 0 0 12px 0;
+}
+
+.author {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
